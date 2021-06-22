@@ -12,7 +12,7 @@ public class RandomDemo {
         System.out.println(fluffy.nextInt(100));
         System.out.println(fluffy.nextInt(100));
         
-        System.out.println("GAME OVER MAN!!!!");
+        System.out.println("\nGAME OVER MAN!!!!");
         
     }
 }
