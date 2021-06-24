@@ -62,3 +62,32 @@ public class ScannerDemo {
     
     
 }
+
+
+
+/*
+
+TEXT FILE VISUAL
+
+Enter your name:
+DAVE
+
+Enter your last name:
+GHIDIU
+
+Enter your age:
+42
+
+Enter your middle name:
+RYAN
+
+=============
+
+
+️️DAVE
+GHIDIU
+42
+➡RYAN
+
+
+*/
