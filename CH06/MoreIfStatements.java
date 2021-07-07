@@ -24,6 +24,7 @@ public class MoreIfStatements {
         
         boolean isDoorOpen = false;
         boolean isAlarmSet = false;
+        boolean panicButtonPressed = false;
         
         // AND statements require BOTH PARTS to be true
         // OR  statements require ONLY ONE part to be true (but both CAN be true)
