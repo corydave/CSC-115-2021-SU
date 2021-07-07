@@ -16,7 +16,8 @@ public class MoreIfStatements {
         // System.out.println("Enter your age:");
         // int age = scanner.nextInt();
         
-        // if (age != 42) {
+        // // if (age != 42) {
+        // if !(age == 42) {
         //     System.out.println("BORING AGE!");
         // } else {
         //     System.out.println("COOL AGE");
@@ -25,10 +26,10 @@ public class MoreIfStatements {
         boolean isDoorOpen = false;
         boolean isAlarmSet = false;
         boolean panicButtonPressed = false;
-        
+
         // AND statements require BOTH PARTS to be true
         // OR  statements require ONLY ONE part to be true (but both CAN be true)
-        if ( ((isDoorOpen == true) && (isAlarmSet == true)) || panicButtonPressed == true) {
+        if ( (panicButtonPressed == true) || ((isDoorOpen == true) && (isAlarmSet == true)) ) {
             // code to sound alarm
         }
         
@@ -39,6 +40,30 @@ public class MoreIfStatements {
     public static void moreIfs61() {
         
         // System.out.println("DEBUG: moreIfs()");
+        
+        
+        /*
+        
+            boolean a = true;
+            boolean b = false;
+            boolean c = true;
+            
+            if !(a && b == true) {
+                // do something cool
+            }
+            
+            !(a && b)
+            !a || !b
+            
+            !(!a || b)
+            a && !b
+            
+            3(x + 2y) = 3x + 6y
+            -2(2x - 5y) = -4x + 10y
+            
+            
+        
+        */
         
         int grade = 95;
         String letterGrade = "";
