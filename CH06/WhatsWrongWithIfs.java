@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class WhatsWrongWithLoops {
+public class WhatsWrongWithIfs {
 
     public static void main (String[] args) {
         
-        loopsAreLit();
+        ifsAreLit();
         
         System.out.println("\nGAME OVER MAN!!!");
         
     }
 
-    public static void loopsAreLit() {
+    public static void ifsAreLit() {
         
-        // System.out.println("DEBUG: loopsAreLit()");
+        // System.out.println("DEBUG: ifsAreLit()");
         
             int num = 9;
             String remainder = "";
